@@ -2,6 +2,17 @@ News for the tz database
 
 Unreleased, experimental changes
 
+  Changes to future timestamps
+
+    Samoa no longer observes DST.  (Thanks to Geoffrey D. Bennett.)
+
+  Changes to zone name
+
+    Rename Pacific/Enderbury to Pacific/Kanton.  When we added
+    Enderbury in 1993, we did not know that it is uninhabited and that
+    Kanton (population two dozen) is the only inhabited location in
+    that timezone.  The old name is now a backward-compatility link.
+
   Changes to past timestamps
 
     Correct many pre-1993 transitions, fixing entries originally
